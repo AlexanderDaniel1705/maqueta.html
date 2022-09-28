@@ -74,9 +74,7 @@ i.fa-solid.fa-pen.fa-2x1, i.fa-solid.fa-plus.fa-2x1, i.fa-solid.fa-xmark.fa-2x1 
     transform: scale(1.1);
  }
 
- .dashboard {
-    margin-top: 10rem;
- }
+ 
 /*acerca de mi*/
 .foto_perfil {
     margin-top: -15rem;
@@ -103,26 +101,13 @@ section.about_me, section.education, section.projects, section.experience, secti
     margin: 1rem 1rem 1rem 1rem;
     border-radius: 1.5em;
 }
-.logolaboral {
-    left: 20%;
-}
 
 
 .nav-link {
     color: #030303;
 }
 
-.dashboard {
-    margin-top: 0;
 
-    color:#030303;
-    font-family: 'Merriweather', serif;
-    background-color:rgba(59, 116, 180, 0.5);
-    margin: 1rem 1rem 1rem 1rem;
-    border-radius: 1.5em;
-    padding-bottom: 2rem;
-
-}
 /*iconc barra progreso seccion habilidades*/
 i.fa-brands.fa-html5.fa-2x {
     color: #d38237;
