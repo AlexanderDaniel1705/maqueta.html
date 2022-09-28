@@ -1,0 +1,2 @@
+# Portfolio
+Hice dos páginas, index es la principal donde estan todos los datos y el boton login, y edicion q  es igual a la otra pero con botones de edicion, uno para sumar, otro para editar y otro para eliminar. Tambien agregué un boton para curriculum en el footer.

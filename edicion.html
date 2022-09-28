@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/c6c514cb45.js" crossorigin="anonymous"></script>
+    <title>Edición</title>
+   
+</head>
+<body>
+  <header>
+    <!--barra de navegación-->
+    <nav class="navbar navbar-expand-lg fixed-top"> 
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/img/Logo argentina programa.png" alt="logo_AP" width="20%" height="">
+      </a>
+      <!--íconos redes-->
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">
+          <a target="_blank" href="https://www.github.com/AlexanderDaniel1705">
+            <i class="fa-brands fa-square-github fa-2xl"></i></a>
+          </li>
+        <li class="list-group-item">
+          <a target="_blank" href="https://www.linkedin.com/in/alexander-daniel-7bb29224a">
+            <i class="fa-brands fa-linkedin fa-2xl"></i></a>
+          </li>
+         <!--Buttom hacia index-->
+         <li class="list-group-item">
+          <a href="/index.html"><i class="fa-solid fa-user fa-2xl" type="button"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--fin barra de navegación-->
+   
+       
+        
+      </header>
+        <!--banner-->
+  <section  id="banner">
+    <div class="container-fluid text-center banner">
+     <div class=" col-12 pt-5 pb-5">
+      <img src="assets/img/cielo_estrellado2.jpg" class="rounded-5 ms-4 mb-4 mt-5" alt="banner_cielo">
+      <p>Bienvenidos</p>
+    </div>
+     <!--boton edicion banner-->
+       <div><button type="button" class="btn btn_banner" data-bs-toggle="modal" data-bs-target="#bannerModal"><i class="fa-solid fa-pen fa-2x1"></i></i></button></div>
+    
+  </div>  
+   
+  </section>
+  
+
+      <!--seccion perfil-->
+      <section id="about_me" class="about_me">
+        <div class="container-fluid text-center perfil">
+        <div class="row p-5">
+          <div class="col-3">
+            <div class="col-1"><button type="button" class="btn btn_perfil" data-bs-toggle="modal" data-bs-target="#perfilModal"><i class="fa-solid fa-pen fa-2x1"></i></i></button>
+            </div>
+            <div>
+              <img src="assets/img/yo4.jpg" class="rounded-circle foto_perfil w-75" alt="Foto_Desarrollador">
+             <h3 class="fw-bold mt-2 nombrePerfil">Alexander Daniel Rapalini</h3>
+             <h4>Full Stack Developer JR</h4>
+            </div>
+          </div>
+          <!--acerca de mi-->
+          <div class="col-8"><h2>Acerca de mi</h2><h5>Hola, soy Alexander.</h5>
+          </div>
+          <div class="col-1"><button type="button" class="btn btn_acercademi" data-bs-toggle="modal" data-bs-target="#acercademiModal"><i class="fa-solid fa-pen fa-2x1"></i></button></div>
+        </div> 
+      </div>
+    </section>
+    <!--seccion experiencia laboral-->
+    <section id="experience" class="experience">
+      <div class="container-fluid text-center">
+      <div class="row p-5">
+        <div class="col-3 mt-3">
+          <h3>EXPERIENCIA LABORAL</h3>
+        </div>
+        <div class="col-8 mt-3">
+          <div class="row">
+            <div class=" col-2">
+            <img src="assets/img/logo gobierno de la ciudad.png" alt="logo_gcba" width="120%">
+          </div>
+            <div class="col-10">
+              <h5>Puesto</h5>
+              <p>Agente de transito en ministerio de justicia del GCBA</p>
+              <h5>Descripción de actividad</h5>
+              <p>Control y reordenamiento de tránsito</p>
+              <h5>Periodo</h5>
+              <p>01/06/2018 - actualidad</p>
+            </div>
+          </div>
+      </div>
+        <div class="col-1">
+          
+          <button type="button" class="btn btn_pluslaboral" data-bs-toggle="modal" data-bs-target="#pluslaboralModal"><i class="fa-solid fa-plus fa-2x1"></i></button>
+          <br>
+          <button type="button" class="btn btn_laboral" data-bs-toggle="modal" data-bs-target="#laboralModal"><i class="fa-solid fa-pen fa-2x1"></i></button>
+          <br>
+          <button type="button" class="btn btn_eliminarlaboral" data-bs-toggle="modal" data-bs-target="#"><i class="fa-solid fa-xmark fa-2x1"></i></button>
+        
+        </div>
+      </div> 
+    </div>
+  </section> 
+<!--seccion educación-->
+  <section id="education" class="education">
+    <div class="container-fluid text-center">
+    <div class="row p-5">
+      <div class="col-3">
+        <h3>EDUCACIÓN</h3>
+      </div>
+      <div class="col-8 mt-3">
+        <div class="row">
+          <div class="col-2">
+        <img src="assets/img/Logo argentina programa.png" width="120%">
+      </div>
+      <div class="col-10">
+       <h5>Instituto</h5>
+       <p>Cámara de la industria Argentina del Software</p>
+       <h5>Curso o carrera</h5>
+       <p>#YoProgramo</p>
+       <h5>Descripción</h5>
+       <p>Profundizar conocimientos y adquirir habilidades y herramientas para convertirse en un programador web full-stack junior</p>
+       <h5>Título</h5>
+       <p>Full Stack Developer JR</p>
+       <h5>Fecha</h5>
+       <p>En curso</p>
+      </div>
+      </div> 
+      </div>
+      <div class="col-1">
+        <button type="button" class="btn btn_pluseducacion" data-bs-toggle="modal" data-bs-target="#pluseducacionModal"><i class="fa-solid fa-plus fa-2x1"></i></button>
+          <br>
+          <button type="button" class="btn btn_educacion" data-bs-toggle="modal" data-bs-target="#educacionModal"><i class="fa-solid fa-pen fa-2x1"></i></button>
+          <br>
+          <button type="button" class="btn btn_eliminareducacion" data-bs-toggle="modal" data-bs-target="#"><i class="fa-solid fa-xmark fa-2x1"></i></button>
+      </div>
+    </div> 
+  </div>
+</section> 
+<!--seccion habilidades-->
+<section id="skills" class="skills">
+  <div class="container-fluid text-center">
+  <div class="row p-5">
+    <div class="col-3">
+      <h2>Habilidades</h2>
+      
+    </div>
+    <div class="col-8">
+      <div class="icon_html">
+        <i class="fa-brands fa-html5 fa-2x"></i>
+      </div>
+      
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75% HTML 5</div>
+      </div>
+      <br>
+      <div class="icon_css">
+        <i class="fa-brands fa-css3-alt fa-2x"></i>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70% CSS 3</div>
+      </div>
+      <br>
+      <div class="ico_js">
+        <i class="fa-brands fa-square-js fa-2x"></i>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25% JavaScript</div>
+      </div>
+      <br>
+      <div class="icon_css">
+        <i class="fa-brands fa-bootstrap fa-2x"></i>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50% BOOTSTRAP</div>
+      </div>
+      <br>
+      <div class="icon_css">
+        <i class="fa-brands fa-github fa-2x"></i>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75% GitHub</div>
+      </div>
+    </div>
+    <div class="col-1"><button type="button" class="btn btn_plushabilidades" data-bs-toggle="modal" data-bs-target="#plushabilidadesModal"><i class="fa-solid fa-plus fa-2x1"></i></button>
+      <br>
+      <button type="button" class="btn btn_habilidades" data-bs-toggle="modal" data-bs-target="#habilidadesModal"><i class="fa-solid fa-pen fa-2x1"></i></button>
+      <br>
+      <button type="button" class="btn btn_eliminarhabilidades" data-bs-toggle="modal" data-bs-target="#"><i class="fa-solid fa-xmark fa-2x1"></i></button>
+    </div>
+  </div> 
+</div>
+</section> 
+<!--seccion proyectos-->
+<section id="projects" class="projects">
+  <div class="container-fluid text-center">
+  <div class="row p-5">
+    <div class="col-2">
+      <h2>PROYECTOS</h2>
+    </div>
+    <div class="col-9 mt-3">
+      
+    </div>
+    <div class="col-1">
+      <button type="button" class="btn btn_plusproyectos" data-bs-toggle="modal" data-bs-target="#plusproyectosModal"><i class="fa-solid fa-plus fa-2x1"></i></button>
+      <br>
+      <button type="button" class="btn btn_proyectos" data-bs-toggle="modal" data-bs-target="#proyectosModal"><i class="fa-solid fa-pen fa-2x1"></i></button>
+      <br>
+      <button type="button" class="btn btn_eliminarproyectos" data-bs-toggle="modal" data-bs-target="#"><i class="fa-solid fa-xmark fa-2x1"></i></button>
+    </div>
+  </div> 
+</div>
+</section> 
+
+<!--modals-->
+ 
+ 
+ <!-- Modal banner -->
+ <div class="modal fade" id="bannerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal">Imagen banner</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="formFileSm" class="form-label">Imagen</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="file"> 
+        </div>
+        <div>
+          <label for="formFileSm" class="form-label">Texto</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="text">
+        </div>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+        <button type="button" class="btn btn-dark">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal perfil -->
+<div class="modal fade" id="perfilModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal">Perfil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Imagen</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="file"> 
+        </div>
+        <div><label for="formFileSm" class="form-label">Nombre</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="text">
+        </div>
+        <div><label for="formFileSm" class="form-label">Título</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="text">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+        <button type="button" class="btn btn-dark">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal acerca de mi -->
+<div class="modal fade" id="acercademiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal">Acerca de mi</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div>
+        <textarea class="form-control form-control-sm" id="formFileSm" type="text"></textarea>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+        <button type="button" class="btn btn-dark">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal plus experiencia laboral -->
+<div class="modal fade" id="pluslaboralModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal">Experiencia laboral</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="formFileSm" class="form-label">Logo empresa</label>
+                <input class="form-control form-control-sm" id="formFileSm" type="file">
+          <div class="col-sm-10">
+            <label for="formFileSm" class="form-label">Título puesto</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="formFileSm" class="form-label">Descripción puesto</label>
+                <textarea class="form-control form-control-sm" id="formFileSm" type="text"></textarea>
+          <div class="col-sm-10">
+            <label for="formFileSm" class="form-label">Periodo</label>
+                  <input class="form-control form-control-sm" id="formFileSm" type="date">
+                  <input class="form-control form-control-sm" id="formFileSm" type="date">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+        <button type="button" class="btn btn-dark">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal experiencia laboral -->
+<div class="modal fade" id="laboralModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal">Experiencia laboral</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="formFileSm" class="form-label">Logo empresa</label>
+                <input class="form-control form-control-sm" id="formFileSm" type="file">
+          <div class="col-sm-10">
+            <label for="formFileSm" class="form-label">Título puesto</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="formFileSm" class="form-label">Descripción puesto</label>
+                <textarea class="form-control form-control-sm" id="formFileSm" type="text"></textarea>
+          <div class="col-sm-10">
+            <label for="formFileSm" class="form-label">Periodo</label>
+                  <input class="form-control form-control-sm" id="formFileSm" type="date">
+                  <input class="form-control form-control-sm" id="formFileSm" type="date">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+        <button type="button" class="btn btn-dark">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal plus educacion -->
+<div class="modal fade" id="pluseducacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal">Educación</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Logo Instituto</label>
+                <input class="form-control form-control-sm" id="formFileSm" type="file">
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Instituto</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Curso o carrera</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Descripcón</label>
+          <textarea class="form-control form-control-sm" id="formFileSm" type="text"></textarea>
+        </div>
+          <div class="mb-3">
+            <label for="formFileSm" class="form-label">Título</label>
+                <textarea class="form-control form-control-sm" id="formFileSm" type="text"></textarea>
+          </div>
+          <div class="col-sm-10">
+            <label for="formFileSm" class="form-label">Fecha</label>
+                  <input class="form-control form-control-sm" id="formFileSm" type="date">
+          </div>
+        </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+        <button type="button" class="btn btn-dark">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal educacion -->
+<div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal">Educación</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Logo Instituto</label>
+                <input class="form-control form-control-sm" id="formFileSm" type="file">
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Instituto</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Curso o carrera</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Descripcón</label>
+          <textarea class="form-control form-control-sm" id="formFileSm" type="text"></textarea>
+        </div>
+          <div class="mb-3">
+            <label for="formFileSm" class="form-label">Título</label>
+                <textarea class="form-control form-control-sm" id="formFileSm" type="text"></textarea>
+          </div>
+          <div class="col-sm-10">
+            <label for="formFileSm" class="form-label">Fecha</label>
+                  <input class="form-control form-control-sm" id="formFileSm" type="date">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+          <button type="button" class="btn btn-dark">Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        <!--modal plushabilidades-->
+  <div class="modal fade" id="plushabilidadesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModal">Habilidades</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="formFileSm" class="form-label">Habilidad</label>
+                </div>
+              </div>
+               <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+                <button type="button" class="btn btn-dark">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--modal habilidades-->
+        <div class="modal fade" id="habilidadesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModal">Habilidades</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="formFileSm" class="form-label">Habilidad</label>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+                <button type="button" class="btn btn-dark">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--modal plusproyectos-->
+      <div class="modal fade" id="plusproyectosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModal">Proyecto</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3 row">
+                <label for="formFileSm" class="form-label">Archivo</label>
+                <input class="form-control form-control-sm" id="formFileSm" type="file"> 
+              </div>
+              
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+              <button type="button" class="btn btn-dark">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--proyectos-->
+      <div class="modal fade" id="proyectosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModal">Proyecto</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3 row">
+                <label for="formFileSm" class="form-label">Archivo</label>
+                <input class="form-control form-control-sm" id="formFileSm" type="file"> 
+              </div>
+              
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+              <button type="button" class="btn btn-dark">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--modal cv-->
+<div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal">Curriculum vitae</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="formFileSm" class="form-label">Archivo</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="file"> 
+        </div>
+        
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+        <button type="button" class="btn btn-dark">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="descarga_cv">
+    </i><button type="button" class="btn btn_cv" data-bs-toggle="modal" data-bs-target="#cvModal"><i class="fa-solid fa-download"></i></button>
+       <p><strong>CV</strong></p>
+  
+</div>
+  
+</footer>
+
+         <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+</body>
+</html> 

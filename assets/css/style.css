@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../img/gris.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+/*barra de nav*/
+/*iconos*/
+/* .list-group {
+    
+     --bs-list-group-bg: transparent;  
+     --bs-list-group-border-color: none; 
+} */
+.list-group-item {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+i.fa-brands.fa-square-github.fa-2xl:hover {
+transform: scale(1.2);
+}
+i.fa-brands.fa-square-github.fa-2xl {
+    color: #feffff;
+}
+
+i.fa-brands.fa-linkedin.fa-2xl:hover {
+    transform: scale(1.2);
+}
+i.fa-brands.fa-linkedin.fa-2xl {
+    color:  #feffff;
+}
+
+i.fa-solid.fa-user-lock.fa-2xl:hover {
+    transform: scale(1.2);
+}
+i.fa-solid.fa-user-lock.fa-2xl {
+    color:  #feffff;
+}
+i.fa-solid.fa-user.fa-2xl:hover {
+    transform: scale(1.2);
+}
+i.fa-solid.fa-user.fa-2xl {
+    color:  #feffff;
+}
+ /*fin barra de navegación*/
+ 
+
+
+/*banner*/
+.btn_banner {
+   position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+i.fa-solid.fa-pen.fa-2x1, i.fa-solid.fa-plus.fa-2x1, i.fa-solid.fa-xmark.fa-2x1 {
+    color: #feffff;
+}
+
+ #banner p {
+    font-size:6rem;
+    color: #cde0df;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-shadow: 0 0 2rem #d38237;
+    
+ }
+ #banner p:hover {
+    transform: scale(1.1);
+ }
+
+ .dashboard {
+    margin-top: 10rem;
+ }
+/*acerca de mi*/
+.foto_perfil {
+    margin-top: -15rem;
+    box-shadow: 0 4px 4px #2b2a2a;
+}
+.nombre {
+    color: #271f1fce;
+}
+.btn_perfil {
+    position: absolute;
+    left: 22%;
+    top: 135%;
+    
+}
+.btn {
+    border: none;
+}
+
+/*color fondo secciones*/
+section.about_me, section.education, section.projects, section.experience, section.skills {
+    color:#030303;
+    font-family: 'Merriweather', serif;
+    background-color: rgba(48, 49, 51, 0.5);
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 1.5em;
+}
+.logolaboral {
+    left: 20%;
+}
+
+
+.nav-link {
+    color: #030303;
+}
+
+.dashboard {
+    margin-top: 0;
+
+    color:#030303;
+    font-family: 'Merriweather', serif;
+    background-color:rgba(59, 116, 180, 0.5);
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 1.5em;
+    padding-bottom: 2rem;
+
+}
+/*iconc barra progreso seccion habilidades*/
+i.fa-brands.fa-html5.fa-2x {
+    color: #d38237;
+}
+i.fa-brands.fa-css3-alt.fa-2x {
+    color: #3631c4;
+}
+i.fa-brands.fa-square-js.fa-2x {
+    color: #ac7105;
+}
+i.fa-brands.fa-bootstrap.fa-2x {
+    color: #1b1953;
+}
+footer{
+    background-color: rgba(39, 21, 63, 0.5);
+    
+}
+
+.descarga_cv {
+    margin-left: 3rem;
+    margin-bottom: 0%;
+}
+ i.fa-solid.fa-download {
+    color: #030303;
+ }
